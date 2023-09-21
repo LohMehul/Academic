@@ -3,7 +3,7 @@ import {createBrowserRouter} from "react-router-dom";
 import Home from "./Pages/Homepage.jsx"
 import Header from "./commonPage/HeaderPage.jsx"
 import About from "./Pages/AboutPage.jsx"
-import Footer from "./commonPage./FooterPage.jsx"
+import Footer from "./commonPage/FooterPage.jsx"
 
 const MainRouter = createBrowserRouter([
   {
