@@ -16,7 +16,7 @@ export default function App() {
   return (
     <MDBNavbar expand='lg' light bgColor='light'>
       <MDBContainer fluid>
-        <MDBNavbarBrand href='/'>Navbar</MDBNavbarBrand>
+        <MDBNavbarBrand href=''>Navbar</MDBNavbarBrand>
         <MDBNavbarToggler
           aria-expanded='false'
           aria-label='Toggle navigation'
