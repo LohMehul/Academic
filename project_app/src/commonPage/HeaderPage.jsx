@@ -75,7 +75,7 @@ import {
   MDBNavbarBrand,
   MDBNavbarToggler,
   MDBNavbarNav,
-  MDBNavbarItem,
+  // MDBNavbarItem,
   MDBNavbarLink,
   MDBIcon,
   MDBCollapse
