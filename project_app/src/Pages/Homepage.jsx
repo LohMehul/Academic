@@ -1,12 +1,12 @@
 import React from 'react';
 import "../home.css"
-import Tech from "./Tech_"
+import ParentCard from "./ParentCard"
 const HomePage = () => {
     return (
         <>
             <div className="sec-one">
             <h2>Welcome to my Home </h2>
-            <Tech/>
+            <ParentCard/>
             </div>
         </>
     );
