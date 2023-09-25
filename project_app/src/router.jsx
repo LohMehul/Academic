@@ -6,7 +6,6 @@ import About from "./Pages/AboutPage.jsx"
 import Footer from "./commonPage/FooterPage.jsx"
 import ProjectPage from "./Pages/ProjectPage.jsx"
 import PracticePage from "./Pages/PracticePage.jsx"
-import DateCalenser from "./component/CalenderPage"
 const MainRouter = createBrowserRouter([
   {
     path: "/",
@@ -14,7 +13,7 @@ const MainRouter = createBrowserRouter([
   },
   {
     path: "/about",
-    element: <><Header/><About/><DateCalenser/><Footer/></>,
+    element: <><Header/><About/><Footer/></>,
   },
   {
     path: "/project",
