@@ -6,6 +6,9 @@ import About from "./Pages/AboutPage.jsx"
 import Footer from "./commonPage/FooterPage.jsx"
 import ProjectPage from "./Pages/ProjectPage.jsx"
 import PracticePage from "./Pages/PracticePage.jsx"
+
+
+
 const MainRouter = createBrowserRouter([
   {
     path: "/",
