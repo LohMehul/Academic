@@ -75,12 +75,12 @@ import {
   MDBNavbarBrand,
   MDBNavbarToggler,
   MDBNavbarNav,
-  // MDBNavbarItem,
+  MDBNavbarItem,
   MDBNavbarLink,
   MDBIcon,
   MDBCollapse
 } from 'mdb-react-ui-kit';
-
+import { Link } from 'react-router-dom';
 export default function App() {
   const [showNavSecond, setShowNavSecond] = useState(false);
 
@@ -97,14 +97,19 @@ export default function App() {
         </MDBNavbarToggler>
         <MDBCollapse navbar show={showNavSecond}>
           <MDBNavbarNav>
-            <MDBNavbarLink active aria-current='page' href='/'>
-              Home
-            </MDBNavbarLink>
-            <MDBNavbarLink href='/about'>Features</MDBNavbarLink>
-            <MDBNavbarLink href='#'>Pricing</MDBNavbarLink>
-            <MDBNavbarLink disabled href='#' tabIndex={-1} aria-disabled='true'>
-              Disabled
-            </MDBNavbarLink>
+            
+            <MDBNavbarItem>
+              <Link className='nav-link' to='/'>Home</Link>
+            </MDBNavbarItem>
+            <MDBNavbarItem>
+              <Link className='nav-link' to='/about'>About</Link>
+            </MDBNavbarItem>
+            <MDBNavbarItem>
+              <Link className='nav-link' to='/project'>Project</Link>
+            </MDBNavbarItem>
+            <MDBNavbarItem>
+              <Link className='nav-link' to='/practice'>Practice</Link>
+            </MDBNavbarItem>
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBContainer>
