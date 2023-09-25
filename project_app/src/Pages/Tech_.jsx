@@ -19,7 +19,7 @@ class PropsChild extends Component {
                 <MDBCardBody>
                     <MDBCardTitle>{this.props.title}</MDBCardTitle>
                     <MDBCardText>
-                        Some quick example text to build on the card title and make up the bulk of the card's content. {this.props.kuchbhi}
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, asperiores? {this.props.kuchbhi}
                     </MDBCardText>
                     <MDBBtn href='#'>Button</MDBBtn>
                 </MDBCardBody>
