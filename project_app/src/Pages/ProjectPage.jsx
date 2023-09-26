@@ -10,7 +10,7 @@ const ProjectPage = () => {
         };
         return (
           <p className="text">
-            {isReadMore ? text.slice(0,500) : text}
+            {isReadMore ? text.slice(0,300) : text}
             <span onClick={toggleReadMore} className="read-or-hide">
               {isReadMore ? "...read more" : " show less"}
             </span>
@@ -21,7 +21,7 @@ const ProjectPage = () => {
         <div>
             <h1>this is project page</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis quia esse eligendi saepe tempora quis nam temporibus repellat soluta obcaecati?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptate a earum corporis numquam doloribus inventore beatae, eos facere est placeat corrupti quis ad maiores facilis aspernatur, ex quia? Ad.</p>
+            <p><ReadMore>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptate a earum corporis numquam doloribus inventore beatae, eos facere est placeat corrupti quis ad maiores facilis aspernatur, ex quia? Ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, laborum repellendus quaerat at vero facilis id suscipit ea ullam quo culpa saepe consectetur cum alias, cupiditate unde voluptatibus expedita nisi omnis maiores tenetur doloremque sed? Nihil officiis doloremque dolores alias in qui ipsam consectetur aut ipsum nisi. Cumque labore similique, voluptatibus quas quos in ipsam aut sapiente consequatur optio quia unde exercitationem explicabo? Distinctio tenetur dolor culpa? Harum voluptas officia, est consectetur voluptatibus dolor, labore aliquid earum totam delectus eligendi. Ex quisquam sit maxime tenetur libero totam veritatis odit perspiciatis. Voluptate dolorum modi provident delectus ducimus nesciunt maiores veritatis? Hic.</ReadMore></p>
 
             <h2>Project title</h2>
             <p>project discription</p>
