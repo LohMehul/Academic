@@ -18,7 +18,16 @@ class ProspCard extends Component {
                     <CardCompo title="Other Product" imgSrc={BikeImg} kuchbhi="data" />
                     </div>
                     <div className="col-3"> 
-                    <CardCompo title="Other Product" imgSrc={`${process.env.PUBLIC_URL}/BMWBike.jpg`} kuchbhi="data" />
+                    <CardCompo title="Other Product" imgSrc={`${process.env.PUBLIC_URL}/BMWBike.jpg`} kuchbhi="nasdkjfbsdjlfgsdjkggbsdgjbsd" />
+                    </div>
+                    <div className="col-3"> 
+                    <CardCompo title="Other Product" imgSrc={`${process.env.PUBLIC_URL}/BMWBike.jpg`} kuchbhi="fnkjkfbdkjfgbsjvejifbsdj" />
+                    </div>
+                    <div className="col-3"> 
+                    <CardCompo title="Other Product" imgSrc={`${process.env.PUBLIC_URL}/BMWBike.jpg`} kuchbhi="fasdjfkidsfhdkjfhdkfhdklfgh" />
+                    </div>
+                    <div className="col-3"> 
+                    <CardCompo title="Other Product" imgSrc={`${process.env.PUBLIC_URL}/BMWBike.jpg`} kuchbhi="dfwgvbfkjasgbfkjgfkjdsfgkjdsgbfb" />
                     </div>
                 </div>
             </>
