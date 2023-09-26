@@ -72,7 +72,7 @@ import React, { useState } from 'react';
 import {
   MDBContainer,
   MDBNavbar,
-  MDBNavbarBrand,
+  // MDBNavbarBrand,
   MDBNavbarToggler,
   MDBNavbarNav,
   MDBNavbarItem,
@@ -87,7 +87,7 @@ export default function App() {
   return (
     <MDBNavbar expand='md' light bgColor='light'>
       <MDBContainer fluid>
-        <MDBNavbarBrand href='#'>Navbar</MDBNavbarBrand>
+        <Link className='nav-link' to='/'>Navbar</Link>
         <MDBNavbarToggler
           aria-expanded='false'
           aria-label='Toggle navigation'
